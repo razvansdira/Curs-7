@@ -40,6 +40,7 @@ namespace curs7_mvc
             return View();
         }
 
+    // Tema curs 7 exercitiu 5
 //        [ActionName("authorize")]
         [Authorize(Roles ="Admin")]
         public ActionResult ThisMethodNeedsAuthorization()
